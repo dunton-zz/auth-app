@@ -26,6 +26,7 @@ class LoginForm extends Component {
           .then(this.onLoginSuccess)
           .catch(this.onLoginFail);
       });
+      
   }
 
   onLoginSuccess = () => {
